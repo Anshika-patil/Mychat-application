@@ -1,0 +1,55 @@
+the command of node js run on the terminal:
+1. use the directory on terminal of node server.
+   NodeServer=>open terminal => run the following the command.
+   (Ensure that you, already download the node js into your device)
+   *commands to run on terminal*
+   1. cd "C:\projects\chat application\NodeServer"  
+      (see the copypath of the Nodeserver file of the project)
+   2.npm init 
+    (it will download all packages of json.file)
+   output will be==>
+
+
+   This utility will walk you through creating a package.json file.
+{{{It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (nodeserver)
+version: (1.0.0)
+git repository:
+keywords:
+license: (ISC)
+About to write to C:\projects\chat application\NodeServer\package.json:
+
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a NodeServer for our mychat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  },
+}
+
+
+Is this OK? (yes) 
+type =======> yes  }}}
+
+
+
+3. npm i socket.io
+  (update the packages)
+4. nodemon .\index.js
+(it will start the application name filling)
+
+REQUIRED APP IS (VS CODE) AND (NODE JS)
